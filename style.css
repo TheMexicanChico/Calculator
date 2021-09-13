@@ -1,4 +1,5 @@
 @import url ('https://themexicanchico.github.io/Calculator/');
+
 *
 {
   margin: 0;
@@ -12,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url ('https://img2.goodfon.com/wallpaper/nbig/0/70/abstract-colorful-geometry-3433.jpg');
+  background-image: url('https://img2.goodfon.com/wallpaper/nbig/0/70/abstract-colorful-geometry-3433.jpg');
 }
 
 .calculator {
