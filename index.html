@@ -4,6 +4,13 @@
     <title>Cal-Cu-La-Tor</title>
     <link rel = "stylesheet" type= "text/css" href="style.css">
   </head>
+  <style>
+  #foo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  </style>
   <body>
     <form class= "calculator" name="calc">
       <input class="value" type="text" name="txt" readonly="">
@@ -26,6 +33,7 @@
       <span class= "num" onclick="document.calc.txt.value +='.'">.</span>
       <span class= "num equal" onclick="document.calc.txt.value = eval(calc.txt.value)">=</span>
     </form>
+    <div id="foo">Special Thanks to <a href = "https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog">Online Tutorials</a> on YouTube</div>
   </body>
 </html>
         
